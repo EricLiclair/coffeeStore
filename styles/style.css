@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #e62e00;
+}
+
+.add-margin {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.navigation-bar {
+  position: absolute;
+  overflow: hidden;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* border: 1px solid #ffffff; */
+  padding-top: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  color: #e62e00;
+  font-size: 25px;
+}
+
+.copyright {
+  color: red;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.center-all {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("../images/coffee-cup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.overlay {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-all h1 {
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+  font-size: 80px;
+  /* margin-bottom: 25px; */
+}
+
+.center-all p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.center-all .main-header {
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.landing-button {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #e62e00;
+  border: none;
+  height: 40px;
+  outline: none;
+  border-radius: 40px;
+  width: 120px;
+}
+
+.container1 {
+  height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+}
+
+.overlay1 {
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.add-image-walk-in {
+  background-image: url("../images/cafe1.jpg");
+  background-position: bottom;
+}
+
+.add-image-brew-your-own {
+  background-image: url("../images/options.jpg");
+  background-position: center;
+}
+
+.add-image-store-pickup {
+  background-image: url("../images/cafe2.jpg");
+  background-position: center;
+}
